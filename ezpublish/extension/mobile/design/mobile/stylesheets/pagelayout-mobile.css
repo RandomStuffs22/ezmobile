@@ -1,0 +1,60 @@
+body  {
+    background-position: top center;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat-y;
+    color: #003F72;
+}
+
+div#page {
+    width: 320px;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+}
+
+div#page-wrapper {
+    background-image: url(../images/footer-bg.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+
+div#header {
+    height: 122px;
+    background-color: transparent;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+div#logo {
+    margin: 0;
+    padding-left: 3%;
+}
+
+div#backbutton {
+    padding-left: 17px;
+    padding-top: 21px;
+}
+
+div#usermenu,
+div#searchbox,
+div#topmenu-position,
+div#path {
+    display: none;
+}
+
+div#footer {
+    height: 80px;
+    background-color: transparent;
+    background-image: none;
+    padding: 0;
+    margin: 0;
+}
+
+div#footer address {
+    padding: 5.25em 5em 0 5em;
+    color: #FFF;
+    font-size: 90%;
+}
+
+div#footer address a {
+    color: #FFF;
+}

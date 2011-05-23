@@ -1,0 +1,142 @@
+div.grid {
+    letter-spacing: -0.31em;
+    *letter-spacing: normal;
+    word-spacing: -0.43em;
+}
+
+div.unit-1-2,
+div.unit-1-4,
+div.unit-3-4 {
+    display: inline-block;
+    zoom: 1; *display: inline;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+}
+
+div.unit-1-2 {
+    width: 50%;
+}
+
+div.unit-1-4 {
+    width: 25%;
+}
+
+div.unit-3-4 {
+    width: 75%;
+}
+
+div.category {
+    text-align: center;
+}
+
+div.category h2 {
+    font-weight: normal;
+    color: #003F72;
+}
+
+div.content-view-full, div.content-search, div.content-edit {
+    padding: 1em 1em 2.5em 1em;
+}
+
+div.attribute-header h1 {
+    color: #003F72;
+    font-size: 1.8em;
+}
+
+div.content-view-line div.class-article {
+    border-bottom: 1px dotted #003F72;
+    margin-bottom: 0.5em;
+}
+
+div.content-view-line div.class-article h2 a {
+    color: #990000;
+    font-weight: normal;
+}
+
+div.content-view-line div.attribute-image {
+    float: left;
+    margin: 0.25em 0.25em 0 0;
+}
+
+div.content-search div.feedback h2 {
+    color: #003F72;
+    font-weight: normal;
+}
+
+div.content-search div.feedback {
+    padding-top: 0.5em;
+    border-top: 1px dotted #003F72;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+div.content-search input.halfbox {
+    border: 1px solid #003F72;
+    background-color: #98CDF1;
+    width: 65%;
+    height: 21px;
+}
+
+input.box {
+    border: 1px solid #003F72;
+    background-color: #98CDF1;
+    height: 21px;
+}
+
+textarea.box {
+    border: 1px solid #003F72;
+    background-color: #98CDF1;
+}
+
+div.content-search input.button {
+    font-size: 110%;
+}
+
+div.content-view-full div.content-view-children {
+    border-top: 1px dotted #003F72;
+    margin-top: 0.5em;
+    padding-top: 0.5em;
+}
+
+div.content-view-line div.class-comment h2 {
+    font-weight: normal;
+    color: #990000;
+}
+
+div.attribute-star-rating {
+    display: none;
+}
+
+div.attribute-byline p.date {
+    float: left;
+    font-size: 80%;
+    color: #006DC6;
+}
+
+div.attribute-byline p.author {
+    float: right;
+    font-size: 80%;
+    color: #006DC6;
+}
+
+input.button, input.defaultbutton {
+    color: #FFDDDD;
+    border: 1px solid #990000;
+    background-color: #990000;
+    background-image: url(../images/button-bg.png);
+    background-repeat: repeat-x;
+    font-size: 85%;
+    padding: 0.15em 1em;
+    font-weight: normal;
+    cursor: pointer;
+    margin: 0.5em 0;
+}
+
+div.content-edit label {
+    color: #000000;
+}
+
+div.content-edit div.attribute-header h1 {
+    color: #990000;
+}
